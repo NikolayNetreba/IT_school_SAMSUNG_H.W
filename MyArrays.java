@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class MyArrays {
+
     public static void avgOf4Digit(int[] arr){
         double al = 0, count = 0;
         for (int j : arr) {
@@ -11,6 +12,7 @@ public class MyArrays {
         }
         System.out.println( count != 0? al/count:"-1.00");
     }
+
     public static void minToBegin(int[] arr1) {
         int min = arr1[0];
         for(int i = 1; i < arr1.length ; ++i){
@@ -24,6 +26,7 @@ public class MyArrays {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
         int[] arr = new int[in.nextInt()];
         for(int i = 0; i < arr.length; ++i){
             arr[i] = in.nextInt();
