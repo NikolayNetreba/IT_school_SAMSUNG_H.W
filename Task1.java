@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int j = 0, k = 0;
+        int count1 = 0, count2 = 0;
         int n = in.nextInt();
         int m = in.nextInt();
         int[][] a = new int[n][m];
-        for (int i = 0; k < n * m; k++, j++) {
-            if (k != 0 && k % m == 0) {
+        for (int i = 0; count2 < n * m; count2++, count1++) {
+            if (count2 != 0 && count2 % m == 0) {
                 i++;
-                j = 0;
+                count1 = 0;
             }
-            a[i][j] = i * j;
+            a[i][count1] = i * count1;
         }
     }
 }
