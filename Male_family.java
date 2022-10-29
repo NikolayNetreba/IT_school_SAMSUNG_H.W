@@ -19,6 +19,5 @@ public class Male_family {
         Mr_Ben.i_sey();
 
 
-
     }
 }
