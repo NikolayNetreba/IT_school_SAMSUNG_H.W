@@ -1,0 +1,32 @@
+Index: Fraction.java
+===================================================================
+diff --git a/Fraction.java b/Fraction.java
+--- a/Fraction.java	
++++ b/Fraction.java	
+@@ -7,9 +7,5 @@
+     Fraction(int numerator, int denominator){
+         this.numerator = numerator;
+         this.denominator = denominator;
+-        System.out.println(numerator + "/" + denominator);
+-    }
+-    Fraction(float num){
+-        this.num = num;
+     }
+ }
+Index: Main.java
+===================================================================
+diff --git a/Main.java b/Main.java
+--- a/Main.java	
++++ b/Main.java	
+@@ -6,10 +6,7 @@
+ 
+ 
+         Fraction fraction1 = new Fraction(4, 5);
+-
+-
+-        Fraction num = new Fraction(4);
+-        System.out.println(num);
++        System.out.println(fraction1);
+ 
+     }
+ }
